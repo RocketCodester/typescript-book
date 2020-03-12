@@ -138,7 +138,7 @@ abstract class FooCommand {
   abstract execute(): string;
 }
 
-class BarErrorCommand  extends FooCommand {} // 'BarErrorCommand' needs implement abstract member 'execute'.
+class BarErrorCommand extends FooCommand {} // 'BarErrorCommand' needs implement abstract member 'execute'.
 
 class BarCommand extends FooCommand {
   execute() {
